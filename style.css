@@ -1,0 +1,406 @@
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 14px;
+
+
+  }
+}
+.top-nav ul li a{
+    background-color: white;
+    color: black;
+    text-align: right;
+    display: flex;
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: bold;
+    font-size: 0.9em;
+    list-style: none;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 0;
+
+
+
+    
+}
+.top-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+.top-nav ul li a :hover{
+    
+    color: lightblue;
+}
+
+header h1{
+    color: rgba(23, 135, 232, 0.808);
+    font-family: Arial, sans-serif;
+    font-size: 2.5em;
+    text-align: left;
+    margin: 0;
+}
+.page-1 h1{
+    
+    color:white;
+    font-size: 2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    margin-bottom: 40px;
+    vertical-align: inherit;
+
+}
+.page-1 {
+    background-image: url('images/bg1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+carousel-container {
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.carousel {
+  display: flex;
+  gap: 16px;
+  padding: 10px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  overflow: hidden;
+  min-width: 200px;
+  text-align: center;
+  transition: transform 0.3s;
+  min-height: 100px;
+    margin: 10px;
+
+
+  
+   
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+    border-bottom: 0px;
+ 
+}
+
+.card p {
+  padding: 0px;
+  margin: 0;
+  font-weight: bold;
+}
+.carousel-controls {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.download-button {
+    background:transparent;
+    
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1em;
+    display: flex;
+
+}
+.download-button:hover{
+    background-color: lightblue;
+    color: black;
+}
+.download-button img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+ .overlay {
+      background-color: rgba(0, 0, 0, 0.4);
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .search-bar {
+      background-color: white;
+      border-radius: 50px;
+    
+      padding: 10px 20px;
+      display: flex;
+      gap: 10px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+      width: 90%;
+      max-width: 700px;
+    }
+
+    .search-bar input,
+    .search-bar button {
+      padding: 10px 15px;
+      border: none;
+      border-radius: 25px;
+      outline: none;
+      font-size: 14px;
+      flex: 1;
+    }
+
+    .search-bar button {
+      background-color: #007BFF;
+      color: white;
+      cursor: pointer;
+      flex: 0.5;
+    }
+
+    .search-bar button:hover {
+      background-color: #0056b3;
+    }
+    .overlay h2{
+        justify-content: flex-end;
+        color: white;
+    }
+.destination-cards{
+  display: flex;
+  gap: 16px;
+  padding: 10px;
+}
+
+.destination-card {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  overflow: hidden;
+  min-width: 200px;
+  text-align: center;
+  transition: transform 0.3s;
+  min-height: 100px;
+    margin: 10px;
+
+
+  
+   
+}
+
+.destination-card:hover {
+  transform: scale(1.05);
+}
+
+.destination-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+    border-bottom: 0px;
+ 
+}
+
+.destiantion-card p {
+  padding: 0px;
+  margin: 0;
+  font-weight: bold;
+}
+.popular-destinations {
+  display: flex;
+  gap: 16px;
+  padding: 10px;
+}
+
+.destination {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  overflow: hidden;
+  min-width: 200px;
+  text-align: center;
+  transition: transform 0.3s;
+  min-height: 100px;
+    margin: 10px;
+
+
+  
+   
+}
+
+.destination:hover {
+  transform: scale(1.05);
+}
+
+.destination img {
+  width: 1000px;
+  height: 250px;
+  object-fit: cover;
+    border-bottom: 0px;
+ 
+}
+
+.destinantion p {
+  padding: 0px;
+  margin: 0;
+  font-weight: bold;
+}
+.discover-cards{
+  display: flex;
+  gap: 16px;
+  padding: 10px;
+}
+
+.discover-card {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  overflow: hidden;
+  min-width: 200px;
+  text-align: center;
+  transition: transform 0.3s;
+  min-height: 100px;
+    margin: 10px;
+
+
+  
+   
+}
+
+.discover-card:hover {
+  transform: scale(1.05);
+}
+
+.discover-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+    border-bottom: 0px;
+ 
+}
+
+.discover-card p {
+  padding: 0px;
+  margin: 0;
+  font-weight: bold;
+}
+.popular-destinations {
+  display: flex;
+  gap: 16px;
+  padding: 10px;
+}
+
+.destination {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  overflow: hidden;
+  min-width: 200px;
+  text-align: center;
+  transition: transform 0.3s;
+  min-height: 100px;
+    margin: 10px;}
+.details{
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    overflow: hidden;
+    min-width: 200px;
+    text-align: center;
+    display: flex;
+    }
+    .details:hover {
+      transform: scale(1.05);
+    }
+      
+header img{
+    width: 200px;
+    height: 45px;
+    margin-right: 20px;
+    margin-top: 5px;
+    float: left;
+
+}
+.about ul {
+  display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    list-style: none;
+
+    
+    
+    gap: 10px;
+    text-decoration: none;
+    
+
+}
+.about img{
+    width: 200px;
+    height: 45px;
+    margin-right: 20px;
+    margin-top: 5px;
+    float: left;
+}
+.about ul li:hover{
+    color: rgb(7, 148, 196);
+    text-decoration: underline;
+
+
+}
+.about ul li a{
+    color:blue;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 0.5em;
+    padding: 10px 20px;
+    display: flex;
+
+}
+.places ul li{
+    text-decoration: none;
+    list-style: none;
+    padding: 10px 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+}
+.footer p{
+    color:black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    align-items: center;
+    text-align: center;
+    display: inline;
+}
+.image{
+    background-image: url('images/appart.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rent{
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+    max-width: 400px;
+}
+.rent button{
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
